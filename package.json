@@ -1,0 +1,49 @@
+{
+  "name": "d3-kefex",
+  "version": "0.0.0",
+  "description": "Library which helps to understand d3 inner core functions and html5, svg and canvas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html5",
+    "svg",
+    "dom",
+    "canvas",
+    "d3"
+  ],
+  "author": "Amruthaluri Kiran Kumar",
+  "scripts": {
+    "test": "vows; echo"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jsdom": "3",
+    "seedrandom": "^2.4.2",
+    "smash": "0.0.14",
+    "uglify-js": "^2.4.24",
+    "vows": "^0.8.1"
+  }, 
+  "browserify": "d3.js",
+  "jspm": {
+    "main": "d3",
+    "shim": {
+      "d3": {
+        "exports": "d3"
+      }
+    },
+    "files": [
+      "d3.js"
+    ],
+    "buildConfig": {
+      "uglify": true
+    }
+  },
+  "jam": {
+    "main": "d3.js",
+    "shim": {
+      "exports": "d3"
+    }
+  }
+}

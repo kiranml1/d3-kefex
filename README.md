@@ -1,5 +1,5 @@
-# d3-kefex - EDUCATIONAL VERSION OF D3
-d3-kefex is an educational version of d3 from kiran kumar (Front End Developer) and team, with new and existing technical papers from stanford visualization group - mike bostock, jason davies and VIS group. Currently, this project is under pre-development plan with research on existing papers, code practice, algorithms, architecture and unit tests.
+# d3-kefex
+d3-kefex is an educational version of d3 from Kiran Kumar (Front End Developer) and team, with new and existing technical papers from stanford visualization group - mike bostock, jason davies and VIS group. Currently, this project is under pre-development plan with research on existing papers, code practice, algorithms, architecture and unit tests.
 
 Technical specifications and architecture from source is completely same with credit giving to d3 team and will be introducing new features with HTML5 API's Web Audio, WebRTC, Realtime Analytic enabled modules as d3-kefex modules.
 
